@@ -2,3 +2,27 @@ body{
   background-color: aquamarine;
   
 }
+.upperelement{
+  background-image: url(../ylakuva.jpg);
+  height:60px;
+  width: auto;
+  border: .2px solid black;
+}
+.navbar{
+  display: flex;
+  height: 22;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.5s;
+
+}
+.navbar > .linkit{
+  margin-right: 20px;
+  font-size:14px;
+  text-transform: uppercase;
+
+}
+.navbar > .linkit a{
+  color:orange;
+  text-decoration: none;
+  transition: color 0.5s;
+}
